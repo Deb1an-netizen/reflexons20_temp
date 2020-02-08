@@ -340,7 +340,14 @@
           <div class="col-lg-6 venue-map">
             <div style="width: 100%"><iframe width="100%" height="720" src="https://maps.google.com/maps?width=100%&height=720&hl=en&q=JD-2%2C%20JD%20Block%2C%20Sector%20III%2C%20Bidhannagar%2C%20Kolkata%2C%20West%20Bengal%20700106+(Reflexons%202K20)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/journey-planner.htm">Journey Planner UK</a></iframe></div><br />
           </div>
-
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>Acharya Prafulla Chandra Roy Siksha Prangan</h3>
+                <p>The University of Calcutta, informally known as Calcutta University (CU), is a collegiate public state university located in Kolkata, West Bengal, India. It was established on 24 January 1857, and was one of the first institutions in Asia to be established as a multidisciplinary and Western-style university. The university campus which is known as "Technology Campus" or "Tech Campus", was created to bring together the three engineering and technical departments (Department of Computer Science and Engineering, A.K.C. School of Information Technology, and Department of Applied Optics & Photonics), in Sector 3, JD Block, Salt Lake</p>
+              </div>
+            </div>
+          </div>
           
         </div>
 
@@ -390,10 +397,14 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="img/supporters/1.png" class="img-fluid" alt="">
+              <img src="img/supporters/1.png" class="img-fluid" alt="XRIG">
             </div>
           </div>
-          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/2.png" class="img-fluid" alt="">
+            </div>
+          </div>
           
 
         </div>
@@ -436,6 +447,82 @@
 
     </section>
 
+    <!--==========================
+      Buy Ticket Section
+    ============================-->
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Want to participate?</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">TEAM EVENT</h5>
+                <h6 class="card-price text-center">ROBOTICS</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>ENTRY FEES: ₹50 </li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>DATE: 16th March 2020</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>TIME: 10:00 AM IST</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Maximum heads per team: 4</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>All the members needs to be physically present at the venue</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Each student must carry their college ID with themselves</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">TEAM EVENT</h5>
+                <h6 class="card-price text-center">CODE COMBAT</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>ENTRY FEES: TBA </li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>DATE: 18th March 2020</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>TIME: TBA</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Maximum heads per team: 4</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access" disabled>Opening soon</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pro Tier -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">TEAM / SOLO</h5>
+                <h6 class="card-price text-center">GAMING</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>ENTRY FEES: TBA </li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>DATE: 19th March 2020</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>TIME: TBA</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Maximum heads per team: 5</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access" disabled>Opening soon</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
    
 
       <!-- Modal Order Form -->
@@ -443,29 +530,33 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
+              <h4 class="modal-title">Register</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <form method="POST" action="#">
+              <form name="registration_robotics" method="POST" action="#" data-netlify="true">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                  <input type="text" class="form-control" name="your-name" placeholder="Team Name">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                  <input type="text" class="form-control" name="your-email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="phone" class="form-control" name="your-number" placeholder="Contact Number">
                 </div>
                 <div class="form-group">
                   <select id="ticket-type" name="ticket-type" class="form-control" >
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
+                    <option value="">-- Number of members in your team --</option>
+                    <option value="1">Jodi tor dak sune kau na ase tobe ekla cholo re (1)</option>
+                    <option value="2">Duo (2)</option>
+                    <option value="3">Triple threat (3)</option>
+                    <option value="4">Full on (4)</option>
                   </select>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn">Buy Now</button>
+                  <button type="submit" class="btn">Register</button>
                 </div>
               </form>
             </div>
